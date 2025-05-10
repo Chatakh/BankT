@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #003366;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  header p{margin-top: -2%;}
+  .heading{
+    color:#0055a5;
+  }
+ 
+  /* Navigation */
+  nav {
+    background: #0055a5;
+    padding: 0.2rem 0;
+    margin-bottom: 1%;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    margin: 0 15px;
+    font-size: 14px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  
+  nav a:hover {
+    /*text-decoration: underline;*/
+    background-color: #ccc;
+    color: #0055a5;
+    padding: 5% 8%;
+    border-radius: 45%;
+  }
+  
+  section {
+    padding: 1.5rem 2rem;
+    background: white;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+
+  .skills ul, .experience ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skills li, .experience li {
+    margin: 0.5rem 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 0.2rem;
+    padding: 0.5rem 1.2rem;
+    background:#0055a5;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight:normal;
+    font-size: 14px;
+  }
+  
+  .btn:hover {
+    background: #44b5db;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #003366;
+    color: white;
+    margin-top: 2rem;
+  }
+  
