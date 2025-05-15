@@ -68,7 +68,7 @@ body {
   .skills li, .experience li {
     margin: 0.5rem 0;
   }
-  
+  button{color:#fff;}
   footer {
     text-align: center;
     padding: 1rem;
